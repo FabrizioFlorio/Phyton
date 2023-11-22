@@ -1,0 +1,9 @@
+# simple program to calculate and convert vacation leftover currency in usd.
+
+co_c = int(input("What do you have left in Colombian pesos?: "))
+pe_c = int(input("What do you have left in Peruvian soles?: "))
+br_c = int(input("What do you have left in Brazilian reais?: "))
+
+usd_c = ((co_c * 0.00025) + (pe_c * 0.27) + (br_c * 0.20))
+
+print("Cha-ching! Now you have the total in USD of:", "$", int(usd_c))
